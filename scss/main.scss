@@ -87,6 +87,13 @@ main{
     grid-template-columns: repeat(3,1fr);
 
 
+    p{
+        text-align: justify;
+        word-spacing: 0.1em;
+        line-height: 1.6em;
+    }
+
+
     .bio-image{
         grid-area: bioimage;
         margin: auto;
